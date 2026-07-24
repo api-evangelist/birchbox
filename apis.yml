@@ -1,7 +1,11 @@
 aid: birchbox
 name: birchbox
-description: birchbox is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Birchbox is a beauty and grooming subscription-box retailer that sends members a monthly
+  assortment of personalized deluxe samples across skincare, makeup, haircare, and fragrance, then lets
+  them purchase full-size versions of what they like in its online shop. Originally a New York startup
+  and later acquired, the brand today runs a direct-to-consumer subscription and e-commerce storefront
+  at birchbox.com. It was surfaced as a portfolio company of Slow Ventures and added to the API Evangelist
+  network. No public developer program, API, or documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/birchbox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +13,29 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.raster.app/birchbox/51LU9DtGI8?ixlib=js-3.6.0&height=630&width=1200&fm=jpg&q=100
 tags:
 - Company
+- Beauty
+- Subscription
+- E-Commerce
+- Retail
+- Consumer
+- Cosmetics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +44,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://birchbox.com
+  url: https://www.birchbox.com
+- type: Blog
+  url: https://www.birchbox.com/magazine
+- type: SignUp
+  url: https://www.birchbox.com/subscriptions/monthly-box
+- type: Login
+  url: https://www.birchbox.com/profile/subscriptions
+- type: PrivacyPolicy
+  url: https://www.birchbox.com/privacy-policy
+- type: TermsOfService
+  url: https://www.birchbox.com/terms-conditions
+- type: DomainSecurity
+  url: security/birchbox-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
